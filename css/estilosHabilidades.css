@@ -1,0 +1,50 @@
+#nav2{
+    position: fixed;
+    top: 25%;
+    max-width:max-content;
+    margin: 2%;
+}
+#nav2 ul{
+    display:inline-block;
+    list-style: none;
+   
+}
+
+
+li a img{
+    width: 100px;
+    background-color: #a71814;
+    height: 100px;
+}
+
+
+.contenido{
+    position: absolute;
+    
+    left: 200px;
+    right: 2%;
+    top: 190px;
+    height: 60%;
+
+    overflow:auto;
+}
+
+#id_mejoras, #id_trepar{
+    width:100%;
+	height:auto;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+.texto{
+    
+    font-size: 1.3em;
+    /*border: 2px solid red;*/
+    flex: 0 1 65%;
+    
+
+  }
+
+
